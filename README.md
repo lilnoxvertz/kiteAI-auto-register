@@ -1,3 +1,6 @@
+## WARNING!!
+- not a reff bot!
+
 ## Features
 - support multi wallet
 
