@@ -1,5 +1,4 @@
-## WARNING!!
-- not a reff bot!
+## WARNING!! NOT A REFERRAL BOT
 
 ## Features
 - support multi wallet
