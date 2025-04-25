@@ -16,7 +16,7 @@ const stats = {
 const delay = (min, max) => {
     const ms = Math.floor(Math.random() * (max - min + 1)) + min;
     const sec = ms / 1000
-    console.log(`\nwaiting ${sec} seconds before registering transaction again.`)
+    console.log(`\nwaiting ${sec} seconds before registering again.`)
 
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -42,7 +42,7 @@ async function startRegisteringWallet(wallet) {
             console.log(`[STATUS]: success`)
             await updateState(status, wallet.address)
         } else {
-            console.log(`[STATUS]: success`)
+            console.log(`[STATUS]: failed`)
             await updateState(status, wallet.address)
         }
 
